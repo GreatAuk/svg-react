@@ -1,0 +1,10 @@
+polyline {
+  background-color: red;
+  animation: dash 10s infinite linear;
+  stroke-dashoffset: 1000;
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
